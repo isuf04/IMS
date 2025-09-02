@@ -6,7 +6,6 @@ from django.contrib.auth import authenticate
 from rest_framework import status
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.decorators import api_view,parser_classes
-# from collage.IMS_App.permissions import RolePermissions 
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.parsers import MultiPartParser, FormParser
@@ -622,4 +621,5 @@ def document_upload_view(request):
     #     return Response(dataa)
     
     
+
     
